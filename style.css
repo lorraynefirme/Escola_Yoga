@@ -102,7 +102,6 @@ img {
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
   outline: none;
-
 }
 .matricula-form button{
   font-family: 'Noto Sans JP', sans-serif;
@@ -445,6 +444,17 @@ img {
   }
   .quote p{
     font-size: 1.1rem;
+  }
+  .matricula-form button{
+    font-size: 0.6rem;
+  }
+  .matricula-form input { 
+    padding: 1px;
+    width: 170px;
+  }
+  .matricula-form{
+    top: 73%;
+    right: 4%;
   }
 }
 
