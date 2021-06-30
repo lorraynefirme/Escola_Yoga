@@ -87,8 +87,9 @@ img {
 .matricula-form{
   display: flex;
   position: absolute;
-  top: 80%;
-  right: 5%;
+  top: 85%;
+  right: -10rem;
+  transform: translate(-50%, -50%);
   margin-bottom: 10px;
 }
 .matricula-form input { 
@@ -235,10 +236,10 @@ img {
 }
 
 .valor-aulas img{
-  top: -60px;
-  left: 48%;
+  left: 50%;
   max-width: 100px;
   position: absolute;
+  transform: translate(-50%, -90%);
 }
 .preco {
   padding: 40px 20px;
@@ -291,7 +292,7 @@ img {
 .preco-item ul:after{
   content: '';
   display: block;
-  max-width: 250px;
+  max-width: 90%;
   height: 2px;
   background: #C6D0C9;
   margin: 30px auto;
@@ -302,7 +303,7 @@ img {
 .preco-item ul:before{
   content: '';
   display: block;
-  max-width: 250px;
+  max-width: 80%;
   height: 2px;
   background: #C6D0C9;
   margin: 30px auto; 
@@ -389,7 +390,6 @@ img {
 	margin-bottom: 10px;
 	outline: none; /* sem estilo azul */
 	font-family: 'Noto Sans JP', sans-serif;
-  
 }
 
 .form-contato textarea{
@@ -450,12 +450,9 @@ img {
   }
   .matricula-form input { 
     padding: 1px;
-    width: 170px;
+    width: 185px;
   }
-  .matricula-form{
-    top: 73%;
-    right: 4%;
-  }
+
 }
 
 @media (max-width: 765px){
@@ -505,10 +502,7 @@ img {
   .matricula-form input { 
     font-size: 0.9rem;
   }
-  .matricula-form{
-    top: 73%;
-    right: 4%;
-  }
+ 
   .aulas ul li p{
     font-size: 1.3rem;
   }
